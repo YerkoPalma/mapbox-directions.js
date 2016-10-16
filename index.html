@@ -151,7 +151,7 @@
     var drivingLayer = L.mapbox.tileLayer('mapbox.emerald').addTo(map);
     var walkingLayer = L.mapbox.tileLayer('mapbox.outdoors');
 
-    var directions = L.mapbox.directions();
+    var directions = L.mapbox.directions({language: 'es'});
 
     var directionsLayer = L.mapbox.directions.layer(directions)
         .addTo(map);
