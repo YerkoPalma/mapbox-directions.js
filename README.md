@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/mapbox/mapbox-directions.js.png)](https://travis-ci.org/mapbox/mapbox-directions.js)
 
+**NOTE: This is a fork for mapbox-directions plugins, that includes language support for directions. Published as scoped package to npm at `@yerkopalma/mapbox-directions.js`**
+
 This is a Mapbox.js plugin for the Mapbox Directions API. Its main features include:
 
 * Input controls for origin and destination
